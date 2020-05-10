@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Test Automation Suite]">
+  <test name="Different testng Feature Test(failed)">
+    <classes>
+      <class name="com.testng.GoogleTestTitle">
+        <methods>
+          <include name="googleTitleTest"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- com.testng.GoogleTestTitle -->
+      <class name="com.testng.TestngBasics">
+        <methods>
+          <include name="deletAllCookies"/>
+          <include name="setup"/>
+          <include name="enterURL"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="generateTestReport"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.testng.TestngBasics -->
+      <class name="com.testng.GoogleTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Test2"/>
+          <include name="Test3"/>
+          <include name="googleLogoTest"/>
+          <include name="Test1"/>
+          <include name="mailLinkTest"/>
+          <include name="googleTitleTest"/>
+        </methods>
+      </class> <!-- com.testng.GoogleTest -->
+    </classes>
+  </test> <!-- Different testng Feature Test(failed) -->
+</suite> <!-- Failed suite [TestNG Session Test Automation Suite] -->
